@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RiyaOrganization/static/css/main.d640acb0.css",
+    "main.js": "/RiyaOrganization/static/js/main.0018c4e3.js",
+    "index.html": "/RiyaOrganization/index.html",
+    "main.d640acb0.css.map": "/RiyaOrganization/static/css/main.d640acb0.css.map",
+    "main.0018c4e3.js.map": "/RiyaOrganization/static/js/main.0018c4e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d640acb0.css",
+    "static/js/main.0018c4e3.js"
+  ]
+}
