@@ -1,0 +1,102 @@
+@import "../../global.scss";
+
+.contacts {
+  background-color: #ABC4AA;
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+    }
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-size: 50px;
+      overflow: hidden;
+      margin: 5px;
+      padding: 5px;
+      color: rgb(81, 73, 88);
+      @include mobile{
+        font-size: 30px;
+      }
+    }
+      
+    h3{
+      font-size: 30px;
+      margin: 5px 0;
+      overflow: hidden;
+      padding: 3px;
+      color:#F3DEBA;
+      @include mobile{
+        font-size: 20px;
+      }
+      
+    }
+
+    form {
+      width: 50%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      input {
+        width: 300px;
+        height: 15px;
+        font-size: 15px;
+
+        @include mobile {
+          width: 200px;
+          height: 20px;
+        }
+      }
+
+      textarea {
+        width: 300px;
+        height: 150px;
+        font-size: 15px;
+
+        @include mobile {
+          width: 200px;
+          height: 100px;
+        }
+      }
+
+      button {
+        width: 150px;
+        height: 20px;
+        color: white;
+        background-color: crimson;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 2px;
+        padding: 2px;
+
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      span {
+        color: rgb(21, 21, 21);
+      }
+    }
+  }
+}
